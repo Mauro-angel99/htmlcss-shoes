@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.pagina {
+    height: 100vh;
+    position: relative;
+}
+
+/* background color */
+
+.red {
+
+    background-color: #FF0000;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.yellow {
+    background-color: #FFFF00;
+}
+
+
+
+/* font color */
+
+.f-yellow {
+    color: #FFFF00;
+}
+
+.f-green {
+    color: #008000;
+}
+
+
+/* main */
+
+
+.contenuto {
+    width: 800px;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

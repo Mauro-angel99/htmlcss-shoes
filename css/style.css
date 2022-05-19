@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+    scroll-behavior: smooth;
 }
 
+html {
+    overflow: hidden;
+}
 
 .pagina {
     height: 100vh;
@@ -38,12 +43,46 @@
 }
 
 
+/* header */
+
+#menu {
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    right: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+}
+
+li {
+    margin: 25px;
+}
+
+
+a {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    background-color: white;
+    display: block;
+    text-align: center;
+    line-height: 65px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
 /* main */
 
 
 .contenuto {
     width: 800px;
-    font-size: 40px;
+    font-size: 35px;
     position: absolute;
     left: 50%;
     top: 50%;
